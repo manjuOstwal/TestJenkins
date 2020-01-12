@@ -5,4 +5,5 @@ echo "commit 3"
 echo "commit4"
 echo "commit5"
 echo "commit6"
+echo "commit7"
 
