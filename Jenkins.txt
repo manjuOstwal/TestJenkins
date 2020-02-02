@@ -4,8 +4,8 @@ pipeline{
                     stage ('build'){
                         steps {
                               echo "step 111 complete"
-                              cd C:/GitRepo/TestJenkins
-                              batch NewFile.bat
+                              batch C:/GitRepo/TestJenkins/newFile.bat
+                            
                               }
                             }
                         stage('depoy') {
