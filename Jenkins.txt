@@ -9,14 +9,12 @@ pipeline{
                         stage('depoy') {
                          steps{
                                echo "step 2 complete"
-                               sh 'ls -l /tmp'
-                              }
+                               }
                             }
                           stage('test') {
                              steps{
                                  echo "step 3 complete"
-                                   sh 'who am i'
-                                   }
+                                }
                               } 
                            }
                         }
