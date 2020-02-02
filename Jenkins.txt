@@ -4,7 +4,7 @@ pipeline{
                     stage ('build'){
                         steps {
                               echo "step 111 complete"
-                              batch "C:/Users/manju.bala/.jenkins/workspace/declarative/newFile.bat"
+                              bat "C:/Users/manju.bala/.jenkins/workspace/declarative/newFile.bat"
                              }
                             }
                         stage('deploy') {
